@@ -1,4 +1,4 @@
-name: HS LinkPro养老固件
+name: build
 
 on:
   push:
