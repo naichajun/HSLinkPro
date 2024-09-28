@@ -7,6 +7,8 @@
 
 #include "dap_main.h"
 
+#ifdef CONFIG_USE_HID_CONFIG
+
 USB_NOCACHE_RAM_SECTION USB_MEM_ALIGNX uint8_t read_buffer[HID_PACKET_SIZE];
 USB_NOCACHE_RAM_SECTION USB_MEM_ALIGNX uint8_t write_buffer[HID_PACKET_SIZE];
 
