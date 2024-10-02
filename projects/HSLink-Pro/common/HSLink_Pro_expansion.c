@@ -267,7 +267,7 @@ void HSP_Loop(void)
         Power_Set_TVCC_Voltage(vref);
         Power_Turn_On();
     } else {
-        Power_Turn_Off();
+        Power_Turn_On();
         Power_Set_TVCC_Voltage(3.3);
     }
 
